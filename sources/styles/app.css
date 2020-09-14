@@ -1,0 +1,105 @@
+/* list of persons */
+.userphoto{
+	display:inline-block;
+	border-radius:4px;
+	width:48px;
+	height:48px;
+	float:left;
+}
+.text {
+	padding:4px 4px 4px 16px;
+	display:inline-block;
+}
+.username{
+	font-size:14px;
+	letter-spacing:0.2px;
+	color:#313131;
+	font-weight:500;
+	line-height:20px;
+	display:block;
+}
+.money{
+	color:#475466;
+	display:block;
+	letter-spacing:0.2px;
+	line-height:20px; 
+}
+.persons_list .webix_list_item,
+.persons_list .webix_list_item.webix_selected{
+	padding:8px 12px;
+}
+/* toolbar buttons */
+.logo{
+	background:url(webix.svg) 12px 4px no-repeat;
+}
+.webix_el_label.main_label{
+	line-height:36px;
+}
+.webix_el_label.main_label .webix_el_box{
+	font-size:16px;
+}
+.mainphoto{
+	border-radius:25px;
+	width:42px;
+	height:42px;
+	cursor:pointer;
+}
+.mainphoto:hover{
+	opacity:0.8;
+}
+/* grid */
+.complete{
+	color:#1CA1C1;
+}
+.incomplete{
+	color:#FF5C4C;
+}
+.complete, .incomplete{
+	cursor: pointer;
+	font-size: 20px;
+	margin-top: 8px;
+}
+#datatable1538415083071 > div.webix_ss_body > div.webix_ss_center > div > div.webix_column.tags > div:nth-child(1) > span{
+	vertical-align: middle;
+}
+.tag{
+	border-radius:20px;
+	border:4px solid rgba(0, 0, 0, 0);
+	color:#fff;
+}
+.support{
+	background-color:#8664c6;
+}
+.quality{
+	background-color:#1ca1c1;
+}
+.failure{
+	background-color:#fdbf4c;
+}
+.data{
+	background-color:#f8643f;
+}
+/* headers (templates) */
+.webix_view.chart_header{
+	text-align: center;
+}
+.webix_error {
+	visibility: hidden;
+	position: absolute;
+  	left: -200px;
+  	top: -200px;
+}
+
+.webix_layout_space, .webix_layout_wide {
+	background-color: #33334c;
+	border-color: #33334c;
+}
+
+.webix_toolbar {
+	background-color: #080919 !important;
+	border-color: #080919 !important;
+}
+
+.webix_sidebar {
+	background-color: #080919 !important;
+}
